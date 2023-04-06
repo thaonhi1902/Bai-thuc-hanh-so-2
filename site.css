@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url("/images/head-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+}
+:root {
+    --color-dark-green: #49a333;
+    --color-olive-green: #678b37;
+    --color-pale-yellow: #ced086;
+    --color-lime-green: #c5d301;
+    --color-forest-green: #2d8c15;
+    --color-moss-green: #81af53;
+    --color-light-yellow: #dce085;
+    --color-deep-green: #2a6e01;
+  }
+ /*div {
+    border:1px solid red; 
+    padding:5px;
+    */
+
+.logo-img{
+    margin-left: 100px;
+    float: left;
+   width: 30%;
+}
+.logo-img img{
+    width: 100%;
+    height: 100%;
+}
+.content {   
+    margin-left: 500px;
+    width:900px;
+    margin:0 auto;
+    position: relative;
+    overflow: auto;
+}
+#hotline {
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#fff;
+    background-color: var(--color-dark-green);
+    text-align: center;
+    border-radius: 4px;
+    padding:10px;
+    margin:0 auto;
+    margin-top:50px;
+    width:40%;
+    margin-right: 70px;
+}
+.form{
+    margin-left: 100px;
+    border: 5px solid var(--color-pale-yellow);
+    background-color: var(--color-olive-green);
+    margin-top: 200px;
+    width: 29%;
+    color: #fff;
+    height: 320px;
+}
+.text-big, .text-small{
+    text-align: center;
+}
+.text-big{
+    font-size: 2rem;
+    font-family: Cambria;
+} 
+.text-small{
+    font-style: italic;
+}
+ .full-name, .phone, .email{
+    margin-top: 10px;
+    margin-left: 15px;
+    border-top: 1px solid var(--color-deep-green);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: transparent; /*làm trong suốt*/
+    border-bottom: 1px solid var(--color-pale-yellow);
+    padding: 5px;
+    width: 90%;
+ }
+ .full-name{
+    margin-top: 20px;
+ }
+ .phone{
+   margin-top: 10px;
+ }
+ .email{
+   margin-top: 10px;
+ }
+ .submit{
+    background-color: var(--color-lime-green);
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+ }
+ .form-input input::placeholder{
+    color: #fff;
+ }
+ .container{
+    margin-left: 100px;
+    margin-top: 120px;
+ }
+ .container-top{
+    display: flex;
+ }
+ .img-container{
+    width: 340px;
+    height: 200px;
+    border-style: dashed;
+    border-color: var(--color-moss-green);
+    border-radius: 15px;
+ }
+ .top-right{
+    margin-left: 10px;
+    width: 350px;
+ }
+ .top-left{
+    margin-right: 20px;
+    width: 350px;
+ }
+ .text-ctn{
+    margin-left: 15px;
+    color: var(--color-moss-green);
+    line-height: 2.5;
+ }
+ .text-ctn h2{
+    font-family: Arial;
+ }
+ .text-center{
+    text-align: justify;
+    line-height: 1.5;
+ }
+ .text-center{
+    font-family: Arial;
+ }
+ .container-bottom{
+    margin-top: 30px;
+    display: flex;
+ }
+ .footer-top{
+   display: flex;
+   margin-top: 15px;
+   background-color: var(--color-moss-green);
+   padding-bottom: 25px;
+ }
+ .footer-left{
+   margin-top: 25px;
+   margin-left: 380px;
+   width: 500p
+ }
+ .info{
+    display: flex;
+    background-color:#81af53;
+ }
+ .info-left{
+    margin-left: 210px;
+    margin-right: 50px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ .info-right{
+    margin-left: 40px;
+ }
+ .img-info{
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ .text-info{
+    font-size: 18px;
+    color: #fff;
+ }
+ .text-center-info{
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 1rem;
+    text-align: justify;
+ }
+ .bot{
+    background-color: #dce085;
+ }
+ .text-bot{
+    font-size: 20px;
+    color: #2d8c15;
+    text-align: center;
+}
+.log-top{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.log-name{
+    margin-left: 200px;
+}
+.log-phone{
+    margin-left: 400px;
+}
+.log-bot{
+    display: flex;
+}
+.log-mail{
+    margin-left: 200px;
+}
+.log-sub{
+    border: none;
+    margin-left: 400px;
+    color: #fff;
+    background-color: #49a333;
+    width: 200px;
+    height: 40px;
+}
+
